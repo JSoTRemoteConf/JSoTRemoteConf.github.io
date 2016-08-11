@@ -8,7 +8,7 @@ body {
 }
 .banner {
 	font-family: 'Pacifico';
-	font-size: 72px;
+	font-size: 64px;
 	color: #E8F1F2;
 }
 .banner-container {
@@ -20,13 +20,13 @@ body {
 	max-width: 85%;
 	border: #E8F1F2 1px solid;
 	border-radius: 10px;
-	padding: 15px;
+	padding: 40px;
 }
 h1, h2, h3 {
   font-family: 'Roboto Slab';
   font-weight: normal;
   color: #E8F1F2;
-  margin: 8px 0 8px 0;
+  margin: 10px 0 10px 0;
 }
 ul {
   list-style: none;
@@ -34,7 +34,7 @@ ul {
   margin: 0;
 }
 ul li { 
-    padding-left: 16px; 
+    padding: 5px 5px 5px 16px; 
     margin-bottom: 10px;
     color: #E8F1F2;
 }
@@ -49,9 +49,15 @@ a {
 }
 p {
   color: #E8F1F2;
+  padding: 5px;
 }
 .note {
 	font-size: 12px;
 	font-style: italic;
 	color: #E8F1F2;
+}
+@media (max-width:425px){
+  .banner {
+    font-size: 36px;
+  }
 }
