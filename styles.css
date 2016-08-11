@@ -38,10 +38,8 @@ ul li {
     margin-bottom: 10px;
     color: #E8F1F2;
 }
-ul li:before {
-    content: "<i class="em em-arrow_right"></i>";
-    padding-right: 8px;
-    color: #E8F1F2;
+i {
+  margin-right: 4px;
 }
 a {
   color: #EF8F4A;
